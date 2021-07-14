@@ -20,6 +20,7 @@ while True:
         r *= Range_R
 
     fans = ans/r
+    print(f">>順列:{ans}")
     print(f">>組み合わせ:{fans}")
     
     select = input(">>終了しますか?:[y/n]")

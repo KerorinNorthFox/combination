@@ -11,6 +11,5 @@ def permutation(n, r):
     r *= Range_R
   
   ans = n/r
-  print(f">>順列:{ans}")
   
   return ans

@@ -6,7 +6,7 @@ r = input("rを入力してください>>")
 n = int(n)
 r = int(r)
 
-pf.permutation(n, r)
+ans = pf.permutation(n, r)
 
 keep_R = r
 r = 1

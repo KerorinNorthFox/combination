@@ -3,6 +3,9 @@ import permutation_func as pf
 n = input("nを入力してください>>")
 r = input("rを入力してください>>")
 
+n = int(n)
+r = int(r)
+
 pf.permutation(n, r)
 
 keep_R = r

@@ -16,4 +16,4 @@ for Range_R in range(1, keep_R+1):
 
 fans = ans/r
 
-print(fans)
+print(f">>組み合わせ:{fans}")

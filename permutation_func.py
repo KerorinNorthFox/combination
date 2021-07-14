@@ -4,10 +4,10 @@ def permutation(n, r):
   n = 1
   r = 1
   
-  for Range_N in range(0, keep_N):
+  for Range_N in range(1, keep_N+1):
     n *= Range_N
   
-  for Range_R in range(0, a):
+  for Range_R in range(1, a+1):
     r *= Range_R
   
   ans = n/r
